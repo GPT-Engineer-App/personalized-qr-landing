@@ -24,7 +24,7 @@ const Index = () => {
         </CardHeader>
         <CardContent className="space-y-4">
           <Input
-            placeholder="Username"
+            placeholder="Enter your username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
